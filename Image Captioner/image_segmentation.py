@@ -41,6 +41,6 @@ def extract_features_and_caption(image_path):
     return features, caption
 
 if __name__ == "__main__":
-    image_path = r"C:\Users\borni\Downloads\WhatsApp Image 2025-04-28 at 11.28.04_a390eb0b.jpg"
+    image_path = r"C:\Users\borni\Downloads\WhatsApp Image 2025-04-28 at 11.28.04_a390eb0b.jpg" #Change this path according to your custom image path
     
     features, caption = extract_features_and_caption(image_path)
